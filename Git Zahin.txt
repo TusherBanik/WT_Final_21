@@ -1,0 +1,76 @@
+
+user@DESKTOP-R7HRT99 MINGW64 ~ (master)
+$ cd "C:\xampp\htdocs\WT_Final"
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/WT_Final/.git/
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$ git add .
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/AddCategory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/AllCategory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/Dashboard.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/EditCategory.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/Login.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/SignUp.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/controllers/CategoryController.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/controllers/temp.php.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in HoomAssainment 12-7-21/models/db_config.php.
+The file will have its original line endings in your working directory
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$ git commit -m "commitd by Zahin"
+[master (root-commit) 9ef9f17] commitd by Zahin
+ 15 files changed, 574 insertions(+)
+ create mode 100644 ClassWork12-7-21/control/temp.php
+ create mode 100644 ClassWork12-7-21/db.php
+ create mode 100644 ClassWork12-7-21/index.php
+ create mode 100644 ClassWork12-7-21/models/db.php
+ create mode 100644 ClassWork12-7-21/new 1.txt
+ create mode 100644 ClassWork12-7-21/singup.php
+ create mode 100644 HoomAssainment 12-7-21/AddCategory.php
+ create mode 100644 HoomAssainment 12-7-21/AllCategory.php
+ create mode 100644 HoomAssainment 12-7-21/Dashboard.php
+ create mode 100644 HoomAssainment 12-7-21/EditCategory.php
+ create mode 100644 HoomAssainment 12-7-21/Login.php
+ create mode 100644 HoomAssainment 12-7-21/SignUp.php
+ create mode 100644 HoomAssainment 12-7-21/controllers/CategoryController.php
+ create mode 100644 HoomAssainment 12-7-21/controllers/temp.php
+ create mode 100644 HoomAssainment 12-7-21/models/db_config.php
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$ git remote add origin https://github.com/TusherBanik/WT_Final_21.git
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/TusherBanik/WT_Final_21.git'
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$ git push -f origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/TusherBanik/WT_Final_21.git'
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$ git push -f origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (22/22), 5.01 KiB | 513.00 KiB/s, done.
+Total 22 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/TusherBanik/WT_Final_21.git
+ * [new branch]      master -> master
+
+user@DESKTOP-R7HRT99 MINGW64 /c/xampp/htdocs/WT_Final (master)
+$
